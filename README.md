@@ -1,21 +1,23 @@
-# admin
-
-> A Vue.js project
-
-## Build Setup
-
-``` bash
-# install dependencies
+## 安装步骤
+```
+# 下载或克隆下来，然后安装依赖
 npm install
 
-# serve with hot reload at localhost:8080
+# 开发预览
 npm run dev
 
-# build for production with minification
+# 打包发布，生成的文件在dist文件夹中
 npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## 简介
+本项目使用最新版vue2进行构建，项目中使用vue-router控制路由，vuex进行状态管理，另外还是引入了几个常用的vue插件，比如使用vue-axios处理http请求，使用vue-awesome-weiper处理首页轮播，使用vue-lazyload进行懒加载，项目中使用到了vue的大部分知识点。
+
+## 技术栈
+vue2+vuex
++vue-router+webpack+es6/7+mint-UI
+
+## 实现的主要核心功能
+1. 商家分类管理模块：1.上传商家类别功能2.编辑商户类型功能3.删除商户类型，可批量删除。
+2. 商家管理模块：1.上传商家封面头像功能2.上传菜品图片功能，可批量上传，3.商家菜品展示页面.4.商家编辑页面：可修改商户电话，封面，商家名称，商家所属类型等等商家的信息.5.删除指定商户
+3. 商品管理模块：1.可查看商户头像，商户名称以及商户的商品图册。2.商品添加功能（填写商户名称，以及商户所属类型）3.编辑指定商家的商品功能
