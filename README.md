@@ -11,7 +11,7 @@ npm run build
 ```
 
 ## 简介
-此项目为商户信息后台管理
+### 此项目为商户信息后台管理
 本项目使用最新版vue2进行构建，项目中使用vue-router控制路由，vuex进行状态管理，另外还是引入了几个常用的vue插件，比如使用vue-axios处理http请求，使用vue-awesome-weiper处理首页轮播，使用vue-lazyload进行懒加载，项目中使用到了vue的大部分知识点。
 
 ## 技术栈
